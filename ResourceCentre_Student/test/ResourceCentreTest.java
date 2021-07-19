@@ -82,6 +82,8 @@ public class ResourceCentreTest {
 	public void testRetrieveAllChromebook() {
 		//fail("Not yet implemented");
 		// write your code here
+		//testing 1,2,3
+		
 	}
 
 	@Test
@@ -108,6 +110,7 @@ public class ResourceCentreTest {
 		//fail("Not yet implemented");
 		// write your code here
 	}
+	
 	
 	@After
 	public void tearDown() throws Exception {
