@@ -14,7 +14,7 @@ public class Chromebook extends Item{
 	public String toString(){
 		String output = "";
 		// Write your codes here
-		//testing 1,2,3
+		//1,2,3
 		return output;
 	}
 }
