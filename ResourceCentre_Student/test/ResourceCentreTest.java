@@ -73,7 +73,10 @@ public class ResourceCentreTest {
 		//test if the expected output string same as the list of camcorders retrieved from the SourceCentre
 		allCamcorder= ResourceCentre.retrieveAllCamcorder(camcorderList);
 
+		testOutput = String.format("%-10s %-30s %-10s %-10s %-20d\n","CC0011", "Nikon HDSLR", "Yes", "", 40);
+		testOutput += String.format("%-10s %-30s %-10s %-10s %-20d\n","CC0012", "Sony DSC-RX100M7", "Yes", "", 20);
 	
+		assertEquals("Check that ViewAllCamcorderlist", testOutput, allCamcorder);
 		
 	}
 	@Test
@@ -89,12 +92,6 @@ public class ResourceCentreTest {
 		ResourceCentre.addChromebook(chromebookList, cb2);
 		assertEquals("Test if that chromebookList arraylist size is 2?", 2,chromebookList.size());
 		
-		allchromebook= ResourceCentre.retrieveAllCamcorder(camcorderList);
-		
-		testOutput = String.format("%-10s %-30s %-10s %-10s %-20d\n","CC0011", "Nikon HDSLR", "Yes", "", 40);
-		testOutput += String.format("%-10s %-30s %-10s %-10s %-20d\n","CC0012", "Sony DSC-RX100M7", "Yes", "", 20);
-	
-		assertEquals("Check that ViewAllCamcorderlist", testOutput, allchromebook);
 		
 		
 	}
