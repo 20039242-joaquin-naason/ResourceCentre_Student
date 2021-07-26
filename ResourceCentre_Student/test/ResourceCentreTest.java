@@ -105,6 +105,8 @@ public class ResourceCentreTest {
 		testOutput2=String.format("%-10s %-30s %-10s %-10s %-20d\n","CB0011", "My Google Chromebook 1st", "Mac OS");
 		testOutput2=String.format("%-10s %-30s %-10s %-10s %-20d\n","CB0012", "SAMSUNG Chromebook 4+", "Win 10");
 		
+		assertEquals("Check that ViewAllChromebooklist", testOutput2, allchromebook);
+		
 		
 		
 	}
