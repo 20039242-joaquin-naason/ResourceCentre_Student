@@ -145,7 +145,7 @@ public class ResourceCentreTest {
 		//fail("Not yet implemented");
 				// write your code here
 		//boundary
-				assertNotNull("test if ther is valid Chromebook arralist to loan from", chromebookList);
+		assertNotNull("test if ther is valid Chromebook arralist to loan from", chromebookList);
 						
 				ResourceCentre.addChromebook(chromebookList, cb1);
 				//normal
